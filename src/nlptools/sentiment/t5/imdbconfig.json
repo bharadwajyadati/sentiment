@@ -1,0 +1,8 @@
+{
+    "download_url": "https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz",
+    "tar_file_name": "aclImdb_v1.tar.gz",
+    "data_dir": "aclImdb",
+    "val_split": 1000,
+    "max_len": 512,
+    "target_len": 2
+}

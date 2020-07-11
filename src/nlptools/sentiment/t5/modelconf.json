@@ -1,0 +1,30 @@
+{
+    "sentiment": {
+        "chk_dir": "t5_imdb_sentiment",
+        "output_dir": "t5_base_imdb_sentiment",
+        "target_len": 2
+    },
+    "emotion": {
+        "output_dir": "t5_base_emotion",
+        "target_len": 2
+    },
+    "model_name": "t5-base",
+    "tokenizer": "t5-base",
+    "max_seq_length": 512,
+    "learning_rate": 3e-4,
+    "weight_decay": 0.0,
+    "adam_epsilon": 1e-8,
+    "warmup_steps": 0,
+    "train_batch_size": 8,
+    "eval_batch_size": 8,
+    "num_train_epochs": 10,
+    "gradient_accumulation_steps": 16,
+    "n_gpu": 1,
+    "early_stop_callback": "False",
+    "fp_16": "False",
+    "opt_level": "O1",
+    "max_grad_norm": 1.0,
+    "seed": 42,
+    "num_workers": 4,
+    "batch_size": 32
+}
